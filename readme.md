@@ -22,6 +22,10 @@ To run this project you will need the following:
 \*Recommended to install in a python virtual environment to constrain the packages to the project.
 
 ```bash
+  #REQUIRED PACKAGES
+  pip install textual requests pandas aiohttp
+
+  # DOWNLOAD HAMPTERMINAL
   git clone https://github.com/hampterfi/hampterminals.git
   cd hampterminal
   cd dashboard
@@ -29,8 +33,7 @@ To run this project you will need the following:
   python -m venv hampterminal
   ./hampterminal/scripts/activate
 
-  #REQUIRED
-  pip install textual requests pandas aiohttp
+
 ```
 
 ## Usage/Examples
